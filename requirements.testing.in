@@ -1,0 +1,7 @@
+# This file specifies the dependencies that are needed to run tests for this project. Specifically,
+# this file is fed into `tests_require` in `setup.py`. This file should contain ranges of
+# requirements, not pinned versions. It should contain only direct dependencies, not transitive
+# dependencies. This file does not include pip-tools itself; that's included directly from
+# `tox.ini`. When you update this file, run `tox -e pip-compile` to automatically update
+# `requirements.txt`.
+pytest>=2.7,<3
