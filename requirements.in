@@ -3,13 +3,5 @@
 # `install_requires` in `setup.py`. This file should contain ranges of requirements, not pinned
 # versions.  It should contain only direct dependencies, not transitive dependencies. When you
 # update this file, run `tox -e pip-compile` to automatically update `requirements.txt`.
-#
-# Note that the last line of this file includes `requirements.testing.in`. This is so that
-# `pip-compile` picks up the requirements in `requirements.testing.in`. Normally,
-# `requirements.testing.in` would include `requirements.in`, rather than the other way around,
-# but `pip-compile` would then automatically name its output file `requirements.testing.txt`, which
-# would be confusing too. This could be fixed if tox allowed us to pipe the output of `pip-compile`
-# into `requirements.txt`, or if `pip-compile` allowed us to specify an output file name.
 lxml>=3.4,<4
 requests>=2.6,<3
--r requirements.testing.in
