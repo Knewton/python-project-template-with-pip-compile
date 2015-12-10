@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-lxml==3.4.4
-py==1.4.30                # via pytest
-pytest==2.7.3
-requests==2.7.0
+lxml==3.5.0
+py==1.4.31                # via pytest
+pytest==2.8.3
+requests==2.8.1
